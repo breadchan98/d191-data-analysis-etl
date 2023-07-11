@@ -1,0 +1,4 @@
+CREATE TRIGGER alter_summary
+AFTER INSERT ON detailed_table_set
+FOR EACH STATEMENT
+EXECUTE PROCEDURE int_to_char()
