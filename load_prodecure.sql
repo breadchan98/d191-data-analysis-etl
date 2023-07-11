@@ -2,8 +2,8 @@ CREATE OR REPLACE PROCEDURE new_detailed_table()
 	LANGUAGE plpgsql
 	AS $$
 	BEGIN
-		DELETE FROM detailedtableset;
-		INSERT INTO detailedtableset (
+		DELETE FROM detailed_table_set;
+		INSERT INTO detailed_table_set (
 			name,
 			title,
 			amount,
