@@ -1,4 +1,4 @@
-INSERT INTO detailedtableset (
+INSERT INTO detailed_table_set (
 	name,
 	title,
 	amount,
